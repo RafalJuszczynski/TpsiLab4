@@ -13,7 +13,7 @@
         <c:forEach items="${lista}" var="person">
         <tr>
             <td>
-            ${person.imie}${person.nazwisko}${person.email}
+            ${person.imie} ${person.nazwisko} ${person.email}
             </td>
         </tr>
         </c:forEach>
