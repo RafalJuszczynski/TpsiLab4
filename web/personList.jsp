@@ -11,9 +11,16 @@
         <h1>Hello World!</h1>
         <table>
         <c:forEach items="${lista}" var="person">
+            <th>Imie</th><th>Nazwisko</th><th>Email</th>
         <tr>
             <td>
-            ${person.imie} ${person.nazwisko} ${person.email}
+            ${person.imie}  
+            </td>
+            <td>
+            ${person.nazwisko}
+            </td>
+            <td>
+            ${person.email}
             </td>
         </tr>
         </c:forEach>
