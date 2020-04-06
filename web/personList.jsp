@@ -10,7 +10,7 @@
     <body>
         <h1>Hello World!</h1>
         <table>
-        <th>Imie</th><th>Nazwisko</th><th>Email</th>
+            <tr><th>Imie</th><th>Nazwisko</th><th>Email</th></tr>
         <c:forEach items="${lista}" var="person">
             
         <tr>
